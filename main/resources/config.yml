@@ -1,0 +1,40 @@
+#Configuration of commands, /alt convert, with this
+#you can change in (for example) /alt converti, /alt conversione
+ConvertCommand: "convert"
+
+#Language
+Help:
+  - "&7&m----------------------------"
+  - "&7Type &c/alt convert &7to proceed"
+  - "&7to conversion. Attention! When you"
+  - "&7complete the conversion you cannot "
+  - "&7go back. Only allowed commands after"
+  - "&7conversion: &c/tpaccept&7, &c/f join&7, &c/&cleave"
+  - "&7&m----------------------------"
+
+ConvertMessage:
+  - "&7&m----------------------------"
+  - "&cAttention! &7Are you sure you want to convert this account"
+  - "&7and make it alt? You will never be able to go back!"
+  - "&7To proceed re-type: &c/alt convert&7."
+  - "&7&m----------------------------"
+
+ConversionDone: "&cAlt&7-&cSystem&7: Conversion done."
+Reload: "&cAlt&7-&cSystem&7: Configuration reloaded."
+NoPerms: "&cAlt&7-&cSystem&7: You do not have the permission for do that."
+AltError: "&cAlt&7-&cSystem&7: You are an alt!"
+PermissionsGroup: "Alt"  #Name of the group with "altsystem.alt"
+AltsListMessage: "&cAlt&7-&cSystem&7: All alts: "
+#Allowed commands
+Allowed:
+  - "/tpaccept"
+  - "/f join"
+  - "/f leave"
+
+#Allow or deny send error message to alt (use True or False)
+SendOnCommand: true
+SendOnOpenInventory: true
+SendOnChat: true
+SendOnPlaceOrBreak: true
+SendOnCollect: true
+SendOnDrop: true

@@ -1,0 +1,9 @@
+name: Alt-System
+version: 1.4
+author: RequestAndGive
+depend: [Vault]
+description: Alt-System for farm accounts, usefull for OPFactions.
+main: it.AltSystem.AltSystem
+commands:
+  alt:
+    description: Main command
